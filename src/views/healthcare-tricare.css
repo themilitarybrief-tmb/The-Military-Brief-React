@@ -1,0 +1,21 @@
+.healthcare-tricare-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.healthcare-tricare-container2 {
+  display: none;
+}
+ 
+.healthcare-tricare-container3 {
+  display: contents;
+}
+ 
+.healthcare-tricare-container4 {
+  display: none;
+}
+ 
+.healthcare-tricare-container5 {
+  display: contents;
+}

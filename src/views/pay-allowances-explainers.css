@@ -1,0 +1,13 @@
+.pay-allowances-explainers-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.pay-allowances-explainers-container2 {
+  display: none;
+}
+ 
+.pay-allowances-explainers-container3 {
+  display: contents;
+}
