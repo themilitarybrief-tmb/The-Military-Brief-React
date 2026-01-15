@@ -13,6 +13,7 @@ import Home from './views/home'
 import HealthcareTRICARE from './views/healthcare-tricare'
 import PCSHousing from './views/pcs-housing'
 import RetirementBenefits from './views/retirement-benefits'
+import DELETETEST from './views/delete-test'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           exact
           path="/retirement-benefits"
         />
+        <Route component={DELETETEST} exact path="/delete-test" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
